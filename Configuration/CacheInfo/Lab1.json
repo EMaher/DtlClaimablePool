@@ -1,0 +1,19 @@
+{
+    "Caches": [
+        {
+            "CacheId": "Pool1",
+            "Quota": 5,
+            "Enabled": true,
+            "TemplatePath":  "..\\Images\\Win2016\\Datacenter.json",
+            "VMBaseName": "p1-"
+        },
+        {
+            "CacheId": "Pool2",
+            "Quota": 6,
+            "Enabled": true,
+            "TemplatePath":  "..\\Images\\Win2016\\SQLServer 2016 Express.json",
+            "VmBaseName": "pool2-"
+        }
+
+    ]
+}
